@@ -30,3 +30,4 @@ with open('../buitenBeter/reports_m.csv', 'wb') as out:
       row["melding_verwerking_toelichting"] = row["melding_verwerking_toelichting"].replace("\n", "\\n")
       
       writer.writerow(row)
+
